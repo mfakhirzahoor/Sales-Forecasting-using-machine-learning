@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "co2-slippage"
+version = "0.1.0"
+description = "Reduce CO2 slippage using ML"
+authors = [{ name = "CO2_slippage" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["co2_slippage*"]
